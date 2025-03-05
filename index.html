@@ -7,8 +7,8 @@
     <title>Kusuma Sumber Rezeki</title>
     <style>
         * {
-            margin: 0;
-            padding: 0;
+            margin: 10px;
+            padding: 10px;
             box-sizing: border-box;
         }
         
@@ -25,6 +25,7 @@
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
+            margin-left: 10px;
         }
         
         h2 {
@@ -49,9 +50,9 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 30px;
             width: 100%;
+            /* margin-left: 10px;
+            margin-right: 10px; */
             max-width: 400px;
-            margin-left: 10px;
-            margin-right: 10px;
         }
         
         .link {
@@ -102,7 +103,18 @@
             text-decoration: dashed;
             margin-bottom: 10px;
         }
-
+        
+        .whatsapp-buttons {
+            display: flex;
+            justify-content: space-between;
+            /* margin-top: 2px; */
+        }
+        
+        .whatsapp-buttons .link {
+            width: 48%;
+            /* Membuat tombol tidak terlalu lebar, memberi sedikit jarak */
+        }
+        
         @media (min-width: 769px) {
             .container {
                 width: 60%;
@@ -133,7 +145,10 @@
         <a href="https://www.instagram.com/catjotunpadang?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="link" target="_blank">Instagram</a>
         <a href="https://www.tiktok.com/@cat.jotun.padang?is_from_webapp=1&sender_device=pc" class="link" target="_blank">TikTok</a>
         <a href="https://id.shp.ee/ci8yFCG" class="link" target="_blank">Shopee</a>
-        <a href="https://wa.me/628116681999" class="link" target="_blank">WhatsApp</a>
+        <div class="whatsapp-buttons">
+            <a href="https://wa.me/628116681999" class="link" target="_blank">WA Sales</a>
+            <a href="https://wa.me/628116868999" class="link" target="_blank">WA Admin</a>
+        </div>
     </div>
 
 </body>
