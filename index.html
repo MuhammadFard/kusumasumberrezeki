@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Link Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            background-image: url('background.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        
+        h2 {
+            font-size: 25px;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        h3 {
+            font-size: 12px;
+            font-weight: normal;
+            margin-bottom: 20px;
+            margin-top: 5px;
+            color: #2c3e50;
+        }
+        
+        .container {
+            text-align: center;
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 100%;
+            max-width: 400px;
+        }
+        
+        .link {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background-color: #3498db;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 10px 0;
+            width: 100%;
+            box-sizing: border-box;
+            transition: background-color 0.3s ease;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        
+        .link:hover {
+            background-color: #2980b9;
+        }
+        
+        .link:active {
+            background-color: #1c4f75;
+        }
+        
+        .social-icons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .social-icons a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-size: 24px;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        
+        .social-icons a:hover {
+            color: #3498db;
+        }
+        
+        p {
+            font-size: 15px;
+            font-weight: bold;
+            margin-top: 10px;
+            text-decoration: dashed;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Kusuma Sumber Rezeki</h2>
+        <h3>Official Account Kusuma Sumber Rezeki</h3>
+        <p>Alamat Toko</p>
+        <a href="https://maps.app.goo.gl/LUzfg2NAA4sx44Qh6" class="link" target="_blank">Lokasi</a>
+        <p>Sosial Media Kusuma Sumber Rezeki</p>
+        <a href="https://www.instagram.com/catjotunpadang?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="link" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com/@cat.jotun.padang?is_from_webapp=1&sender_device=pc" class="link" target="_blank">TikTok</a>
+        <a href="https://wa.me/628116681999" class="link" target="_blank">WhatsApp</a>
+    </div>
+
+</body>
+
+</html>
